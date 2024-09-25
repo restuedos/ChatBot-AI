@@ -5,6 +5,7 @@
     "login": "bp login",
     "start": "nodemon --watch \"./*\" --ext \"ts\" --exec \"bp deploy -y\"",
     "deploy": "bp deploy",
+    "vercel-deploy": "bp login && bp deploy",
     "check:type": "tsc --noEmit"
   },
   "private": true,
